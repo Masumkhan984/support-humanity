@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #121212;
+    background: #FFFFFF;
+    width: 100vw;
+    /* font-family: 'Lobster', cursive; */
+}
+
+/* ====================
+common CSS
+======================= */
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 80px;
+    text-align: center;
+    color: #121212;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    text-align: center;
+}
+
+button {
+    background: #FF5959;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: large;
+    color: #FFFFFF;
+    padding: 16px 12px;
+    border: none;
+    display: block;
+    align-items: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* =================
+Banner Area
+==================== */
+#banner_area {
+    background-image: url(./images/donation3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner_area::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+}
+
+.banner_inner_area {
+    z-index: 1;
+    width: 80%;
+    max-width: 826px;
+}
+
+.banner_inner_area h1 {
+    display: block;
+    color: #FFFFFF;
+    font-size: 65px;
+}
+
+.banner_inner_area p {
+    display: block;
+    color: #FFFFFF;
+    padding: 40px 50px;
+}
+
+.banner_inner_area button {
+    margin: 0 auto;
+
+}
+
+/* =================
+Donate Area
+==================== */
+#donate_area {
+    margin: 60px 0px;
+}
