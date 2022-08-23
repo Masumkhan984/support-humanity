@@ -125,11 +125,13 @@ Donate Area
     padding: 20px;
     margin-bottom: 50px;
 }
-.donate_inner_area .amount_p{
+
+.donate_inner_area .amount_p {
     color: #989898;
-    margin-top:70px ;
+    margin-top: 70px;
     margin-bottom: 0px;
 }
+
 .donate_inner_area h2 {
     color: #4d4d4d;
 }
@@ -147,6 +149,7 @@ Donate Area
     border-radius: 5px;
     border: 1px solid white;
 }
+
 .money_boxes .tk:hover {
     background: #ffaaaa;
     border: 1px solid red;
@@ -155,6 +158,49 @@ Donate Area
 /* ========================
 Plan Area
 =========================== */
-#plan_area{
-    height: 40px;
+#plan_area {
+    margin: 80px 0px;
+}
+
+.plan_heading {
+    padding: 0px 80px;
+    margin: 80px 0px;
+}
+
+.plan_boxes {
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.plan_boxes p {
+    text-align: left;
+}
+
+.plan_boxes h3 {
+    line-height: 5rem;
+}
+
+.plan_box1 {
+    margin: 5px 10px;
+    padding: 20px;
+    background: #4F9DA61A;
+    border-radius:5px ;
+
+}
+
+.plan_box2 {
+    margin: 5px 10px;
+    padding: 20px;
+    background: #FF59591A;
+    border-radius:5px ;
+
+}
+
+.plan_box3 {
+    margin: 5px 10px;
+    padding: 20px;
+    background: #FFF4D6;
+    border-radius:5px ;
 }
